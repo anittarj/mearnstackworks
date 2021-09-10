@@ -21,12 +21,23 @@
 
 // var,let,const - keywords for variables
 // gloabally var is used
-
-var company="Luminar Technolabs";
-var loc_name="Kakkanad";
-console.log(company);
-console.log(loc_name);
 // age name "hey i am anitta 22 yera old"
+
+
+/*var studname="Anitta";
+var studage=22;
+console.log(studname);
+console.log(studage);
+console.log("Hey I am",studname,studage,"year old");*/
+
+// var location_name="kakkanad",company_name="Luminar technolab"
+// our company luminar technolab located in kakkanad
+
+// console.log(`Our company ${company_name} located in ${location_name}`);
+
+
+
+
 
 
 
