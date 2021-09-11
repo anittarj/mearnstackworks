@@ -1,1 +1,0 @@
-// num=5 is num is divisible by 3 print fiz if num is divisible by 5 print buz if num is divisbile by 15 print fizbuz 
