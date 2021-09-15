@@ -1,6 +1,7 @@
 // sort three numbers in ascending order
 
-var a=4,b=0,c=-1;
+
+var a=2,b=0,c=-2;
 if((a>b) && (a>c)){
         if(b>c){
             console.log(c,`,`,b,`,`,a);

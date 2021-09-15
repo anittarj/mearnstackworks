@@ -10,9 +10,9 @@
 
 // identifiers
 // lower_case,underscore-variable names
-// displayValues-function names
+// displayValues- function names
 // print_person()-snake notation -mostly used in python
-// printPerson()-camel case -used in js
+// printPerson()- camel case -used in js
 // first case-upper case = class name ex:PersonDetails()
 
 // variable - to represent a memory location
