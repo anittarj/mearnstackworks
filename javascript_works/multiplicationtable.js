@@ -2,7 +2,8 @@
 
 
 var num=5,i=1,res=0;
-while(i<11){
+while(i<11)
+{
     res=i*num;
     console.log(i,`*`,num,`=`,res);
     res=0;

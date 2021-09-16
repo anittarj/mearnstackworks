@@ -2,8 +2,10 @@
 
 
 var a=2,b=0,c=-2;
-if((a>b) && (a>c)){
-        if(b>c){
+if((a>b) && (a>c))
+{
+        if(b>c)
+        {
             console.log(c,`,`,b,`,`,a);
         }
         else
@@ -11,7 +13,8 @@ if((a>b) && (a>c)){
             console.log(b,`,`,c,`,`,a);
         }
 }
-else if((b>a) && (b>c)){
+else if((b>a) && (b>c))
+{
         if(a>c)
         {
              console.log(c,`,`,a,`,`,b);

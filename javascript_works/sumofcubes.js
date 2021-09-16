@@ -2,7 +2,8 @@
 
 
 var num=345,sum=0,l,oldnum=num;
-while(num!=0){
+while(num!=0)
+{
     l=num%10;
     sum=sum+l*l*l;
     num=num-l

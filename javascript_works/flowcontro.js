@@ -10,9 +10,11 @@ else{
 }*/
 
 var age=19;
-if (age>10){
+if (age>10)
+{
     console.log("you are eligible");
 }
-else{
+else
+{
     console.log("you are not eligible");
 }

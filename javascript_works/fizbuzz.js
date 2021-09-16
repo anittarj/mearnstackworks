@@ -5,16 +5,20 @@
 
 
 var num=7;
-if ((num%3 == 0) && (num%5 == 0)){ 
+if ((num%3 == 0) && (num%5 == 0))
+{ 
     console.log(`FIZBUZZ`);
 }
-else if(num%3==0){
+else if(num%3==0)
+{
     console.log(`FIZ`);
 }
-else if(num%5==0){
+else if(num%5==0)
+{
     console.log(`BUZZ`);
 }
-else{
+else
+{
     console.log(num,`not divisible by 3 or 5`);
 }
 

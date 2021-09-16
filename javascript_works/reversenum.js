@@ -5,7 +5,8 @@ var num=584;
 var revnum=0;
 var oldnum=num;
 var d;
-while(num!=0){
+while(num!=0)
+{
     revnum=revnum*10;
     d=num%10;
     revnum=revnum+d;
@@ -13,3 +14,11 @@ while(num!=0){
     num=num/10;
 }
 console.log(`reverse of`,oldnum,`is`,revnum);
+
+
+/*while(num!=0)
+{
+    let d=num%10;
+    res=res+d;
+    num=Math.floor(num/10);
+}*/
