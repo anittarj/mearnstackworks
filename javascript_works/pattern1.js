@@ -4,7 +4,7 @@
 // 333
 
 
-var row=3,col=3;
+var r=3,c=3;
 
 for(let i=1;i<=r;i++)
 {

@@ -1,13 +1,22 @@
 // lower=4 upper=25 
-// print all the orime numbers between lower and upper limits
+// print all the prime numbers between lower and upper limits
 
-var lowerlimit=4,upperlimit=25,count=0;
-for(let i=2;i<upperlimit;i++)
+
+var lowerlimit=4,upperlimit=29;
+console.log(`prime numbers between`,lowerlimit,`and`,upperlimit,`are:`);
+for (let i=lowerlimit;i<=upperlimit;i++) 
 {
-    console.log(`prime numbers between`,lowerlimit,`and`,upperlimit,`are:`);
-    if(lowerlimit%i==0)
+    let count=0;
+    for (let j=2;j<i;j++) 
     {
-        count++;
+        if (i%j==0) 
+        {
+            count++;
+            break;
+        }
+    }
+    if (count==0) 
+    {
+        console.log(i);
     }
 }
-console.log(count==0?`prime`:`not prime`);

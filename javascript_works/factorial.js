@@ -1,7 +1,7 @@
 // find the factorial of a number
 
 
-var num=3;
+var num=5;
 var i=1,fact=1;
 while(i<(num+1))
 {
