@@ -9,12 +9,10 @@ else{
     stmt2;
 }*/
 
-var age=19;
-if (age>10)
-{
+var age = 19;
+if (age > 10) {
     console.log("you are eligible");
 }
-else
-{
+else {
     console.log("you are not eligible");
 }

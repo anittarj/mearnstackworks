@@ -12,6 +12,6 @@ else{
 // ternary operator=condition?true:false
 
 
-var num=23;
-var res=num%2==0?"even":"odd"
+var num = 23;
+var res = num % 2 == 0 ? "even" : "odd"
 console.log(res);

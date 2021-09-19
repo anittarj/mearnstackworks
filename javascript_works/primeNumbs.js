@@ -1,11 +1,11 @@
 // create a function primeNumbs(lowlimit,upperlimit) where it prints the prime numbers btw lower & upper
 
 
-function primeNumbs(lowlimit,upperlimit)
+function primeNumbs(ll,ul)
 {
-    var count=0,i;
-    for (i=lowlimit;i<=upperlimit;i++) 
+    for (let i=ll;i<=ul;i++) 
     {
+        let count=0;
         for (let j=2;j<i;j++) 
         {
             if (i%j==0) 
@@ -13,12 +13,11 @@ function primeNumbs(lowlimit,upperlimit)
                 count++;
                 break;
             }
-        if (count==0) 
-        {
-            return i;
         }
-        }
+    if (count==0)
+    {
+        console.log(i);
+    }
     }
 }
-
-console.log(primeNumbs(4,29))
+console.log(primeNumbs(4,29));

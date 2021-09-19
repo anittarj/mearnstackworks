@@ -1,11 +1,9 @@
 // program to find whether prime or not
 
 
-var num=23,count=0;
-for(let i=2;i<num;i++)
-{
-    if(num%i==0)
-    {
+var num = 23, count = 0;
+for (let i = 2; i < num; i++) {
+    if (num % i == 0) {
         count++;
     }
 }
@@ -17,4 +15,4 @@ for(let i=2;i<num;i++)
 // {
 //     console.log(num,`is not a prime number`);
 // }
-console.log(count==0?`prime`:`not prime`);
+console.log(count == 0 ? `prime` : `not prime`);

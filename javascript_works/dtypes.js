@@ -11,8 +11,8 @@ console.log(typeof(is_active));*/
 //data types in c or other programming languages char,byte,short,long,double,float,string,boolean
 // typeof(variable_name)
 
-var num1=10, num2="10";
-console.log(num1===num2?"both are same":"not same");
+var num1 = 10, num2 = "10";
+console.log(num1 === num2 ? "both are same" : "not same");
 
 // == is use to compare the contents only not the type
 // === strict comparison where both type and content is checked 
