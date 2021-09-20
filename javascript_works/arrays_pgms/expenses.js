@@ -24,7 +24,7 @@ for (i = 1; i < expenses.length; i++) {
 }
 console.log(`lowest expense:`, lowestexp);
 
-//num of month expense that exceeds 15000
+// num of month expense that exceeds 15000
 for (i = 0; i < expenses.length; i++) {
     if (expenses[i] > 15000) {
         count++;
@@ -37,11 +37,3 @@ for (i = 0; i < expenses.length; i++) {
     sum = sum + expenses[i];
 }
 console.log(`Average expense:`, sum / expenses.length);
-
-
-
-
-
-
-
-

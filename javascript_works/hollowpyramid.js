@@ -3,16 +3,18 @@
 
 function hollowPyramid(row) {
     let str = "";
+    let n=row;
     for (let i = 1; i <= row; i++) {
-        for (let j = 1; j <= row - i; j++) {
+        for (let j = 1; j <= n ; j++) {
             str += " ";
         }
-        for (let k = 0; k < 2 * i - 1; k++) {
+        n--;
+        for (let k = 0; k <2 *i - 1; k++) {
             if (i === 1 || i === row && k % 2 == 0) {
                 str = str + "*";
             }
             else {
-                if (k === 0 || k === 2 * i - 2) {
+                if (k == 0 || k == 2 * i - 2 ) {
                     str = str + "*";
                 }
                 else {
@@ -25,7 +27,7 @@ function hollowPyramid(row) {
     console.log(str);
 }
 
-console.log(hollowPyramid(4));
+console.log(hollowPyramid(5));
 
 
 
