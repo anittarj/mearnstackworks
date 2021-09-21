@@ -9,7 +9,7 @@ var expenses = [12000, 13000, 14000, 15000, 11000, 25000, 17000]
 var sum = 0, count = 0, i, lowestexp = expenses[0], highestexp = expenses[0];
 
 // higest expense
-for (i = 1; i < expenses.length; i++) {
+for (i = 0; i < expenses.length; i++) {
     if (highestexp < expenses[i]) {
         highestexp = expenses[i];
     }
@@ -17,7 +17,7 @@ for (i = 1; i < expenses.length; i++) {
 console.log(`highest expense:`, highestexp);
 
 // lowest expense
-for (i = 1; i < expenses.length; i++) {
+for (i = 0; i < expenses.length; i++) {
     if (lowestexp > expenses[i]) {
         lowestexp = expenses[i];
     }

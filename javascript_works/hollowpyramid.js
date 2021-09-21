@@ -4,8 +4,8 @@
 function hollowPyramid(row) {
     let str = "";
     let n=row;
-    for (let i = 1; i <= row; i++) {
-        for (let j = 1; j <= n ; j++) {
+    for (let i = 0; i <= row; i++) {
+        for (let j = 1; j <= 2*n ; j++) {
             str += " ";
         }
         n--;
@@ -28,6 +28,8 @@ function hollowPyramid(row) {
 }
 
 console.log(hollowPyramid(5));
+
+
 
 
 
