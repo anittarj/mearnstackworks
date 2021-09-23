@@ -8,9 +8,10 @@ var res = 0;
 for (let num of arr) {
     if (num === 15) {
         res++;
+        break;
     }
 }
-if (res != 0) {
+if (res == 0) {
     console.log(`element found`);
 }
 else {
