@@ -8,17 +8,31 @@ var accounts = [
 ]
 
 console.log(`ac_names`);
+var names=[]
 for (let account of accounts) {
-    console.log(account[1]);
+    names.push(account[1]);
 }
+console.log(names);
 
-console.log(`print names whose balance is greater than 20000`);
+console.log(`print names whose balance is greater than 90000`);
+var greater=[]
 for (let account of accounts){
-    if(account[2]>20000){
-        console.log(account[3]);
+    if(account[2]>90000){
+        greater.push(account[1]);
     }
 }
+console.log(greater);
 
-// print the number of accounts with savings account
+console.log(`print the number of accounts with savings account`);
+var count=0;
+for(let type of accounts)
+{
+    if(type[3]=="current");
+    {
+        count++;
+    }
+}
+console.log(count);
+
 
 

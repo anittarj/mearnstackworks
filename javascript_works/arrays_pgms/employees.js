@@ -10,6 +10,11 @@ var employees = [
 // print the employees array
 console.log(employees);
 
+// print all employees names
+console.log(`All employees names using map function`);
+var employee_names = employees.map((emp) => emp[1])
+console.log(employee_names);
+
 // print the number of employees
 console.log(`the number of employees is`, employees.length);
 
@@ -39,17 +44,13 @@ for (salary of employees) {
 console.log(`the highest salary is`, highest_salary);
 
 // print lowest salary
-var salary_emp = []
-for (let employee of employees) {
-    salary_emp.push(employee[2]);
-}
-var lowest_salary = salary_emp[0]
-for (let salary of salary_emp) {
+var lowest_salary = employees[0][2];
+for (let salary of employees) {
     if (lowest_salary > salary) {
         lowest_salary = salary;
     }
 }
-console.log(`the lowest salary is `, lowest_salary);
+console.log(`the lowest salary is`, lowest_salary);
 
 // print the name of developer who is taking highest salary
 var hgh_sal_devel = 0;
@@ -60,7 +61,7 @@ for (let employee of employees) {
 }
 for (let hghdevsal of employees) {
     if (hghdevsal[2] == hgh_sal_devel && hghdevsal[3] == 'developer') {
-        console.log(hghdevsal[1]);
+        console.log(`the name of employee who gets the highest salary amongst developers is`, hghdevsal[1]);
     }
 }
 
